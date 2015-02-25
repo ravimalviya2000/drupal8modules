@@ -1,0 +1,8 @@
+custom.my_page:
+  path: '/mypage/page'
+  defaults:
+    _content: '\Drupal\custom\Controller\CustomController::myPage'
+    _title: 'My first page in Drupal8'
+  requirements:
+    _permission: 'access content
+- See more at: http://redcrackle.com/blog/say-hello-world-drupal-8-basic-steps-involved-creating-custom-module-drupal-8#sthash.sRnKlRLX.dpuf
